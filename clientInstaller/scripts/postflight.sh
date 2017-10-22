@@ -1,5 +1,21 @@
 #!/bin/sh
 
+# boinc-deployer/clientInstaller: postflight.sh: Installs BOINC on Munki clients
+# Copyright (C) 2017 Tugzrida (github.com/Tugzrida)
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+# 
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 # path to installer folder, without trailing slash(folder containing Mac_SA_Secure.sh, etc)
 boincinstallerpath="/usr/local/boinc_install"
 
@@ -13,7 +29,7 @@ bamauth="123ABC"
 # local auth for BOINC Clients. (new random password can be generated at https://www.random.org/strings/?num=1&len=20&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new)
 gui_rpc_pwd="123ABC"
 
-httpproxy="proxyaddr"    # If not needed, delete the <proxy_info> block onlines 53-64 of this file
+httpproxy="proxyaddr"    # If not needed, delete the <proxy_info> block onlines 69-80 of this file
 httpproxyport="poxyport"
 #######################
 
