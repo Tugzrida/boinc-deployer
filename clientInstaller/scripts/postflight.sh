@@ -19,10 +19,10 @@
 # path to installer folder, without trailing slash(folder containing Mac_SA_Secure.sh, etc)
 boincinstallerpath="/usr/local/boinc_install"
 
-# version of BOINC we'll be installing
-install_vers="7.6.34"
-
 ####### OPTIONS #######
+# version of BOINC we'll be installing
+install_vers="X.X.XX"
+
 # auth for BAM (Weak Authenticator from "Main Account Page" of BAM)
 bamauth="123ABC"
 
